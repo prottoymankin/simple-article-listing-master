@@ -11,31 +11,46 @@
 
     <!-- Tailwind CSS Play CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
   </head>
   <body>
 
-    <main>
-      <h1 class="font-semibold text-4xl text-black">We release interesting articles about technology</h1>
-    </main>
-    <!-- 
+    <main class="max-w-[700px] mx-auto space-y-12">
+      <h1 class="font-semibold text-4xl text-black text-center">We release interesting articles about technology</h1>
 
-      
-    
-      Unlocking the Power of Cloud Computing
-    
-      A Guide to Scalable Solutions
-    
-      November 12, 2024
-    
-      The Future of AI
-    
-      How Machine Learning is Revolutionizing Industries
-    
-      The Impact of 5G on Business
-    
-      How Faster Networks are Transforming the Way We Work
-    
-    -->
+      <img src="resources/Seperator.svg" alt="" class="mx-auto">
+
+      <div class="space-y-12">
+        <div class="flex items-center gap-12">
+          <img src="./resources/photo_1.png" alt="" class="rounded-[10px]">
+          <div>
+            <h2 class="font-semibold text-xl text-black">Unlocking the Power of Cloud Computing:A Guide to Scalable Solutions</h2>
+            <p class="font-medium text-sm text-[#4D5562]">November 12, 2024</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-12">
+          <img src="./resources/photo_3.png" alt="" class="rounded-[10px]">
+          <div>
+            <h2 class="font-semibold text-xl text-black">The Future of AI:How Machine Learning is Revolutionizing Industries</h2>
+            <p class="font-medium text-sm text-[#4D5562]">November 12, 2024</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-12J">
+          <img src="./resources/photo_2.png" alt="" class="rounded-[10px]">
+          <div>
+            <h2 class="font-semibold text-xl text-black">The Impact of 5G on Business:How Faster Networks are Transforming the Way We Work</h2>
+            <p class="font-medium text-sm text-[#4D5562]">November 12, 2024</p>
+          </div>
+        </div>
+      </div>
+    </main>
     </div>
   </body>
 </html>
